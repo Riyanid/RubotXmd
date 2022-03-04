@@ -696,6 +696,18 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 alpha.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
             }
             break
+          /*case 'bcaudio':{
+					if (!m.key.fromMe && !isCreator) throw mess.owner
+					anu = await alpha.chats.all()
+					if (isMedia && !mek.message.audioMessage || isQuotedAudio) {
+						const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
+						let bc = await alpha.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							alpha.sendMessage(_.jid, bc, audio, {mimetype :  'audio/mpeg' , duration : 359996400, ptt : true,quoted: mek})
+						}
+						reply(lang.ok())
+					}}
+					break*/
 	    case 'toimage': case 'toimg': {
                 if (!quoted) throw 'Reply Image'
                 if (!/webp/.test(mime)) throw `Reply Sticker Dengan Caption *${prefix + command}*`
@@ -1947,6 +1959,121 @@ break
                 alpha.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
             }
             break 
+           /* case 'nulis':
+									reply(`*Example*\n${prefix}nuliskiri\n${prefix}nuliskanan\n${prefix}foliokiri\n${prefix}foliokanan`)
+									break
+						case 'nuliskiri':{
+									if (args.length < 1) return reply(`Kirim perintah *${prefix}nuliskiri* teks`)
+									reply(`Wait`)
+									const tulisan = q
+									const splitText = tulisan.replace(/(\S+\s*){1,9}/g, '$&\n')
+									const fixHeight = splitText.split('\n').slice(0, 31).join('\n')
+									spawn('convert', [
+									'./media/nulis/images/buku/sebelumkiri.jpg',
+									'-font',
+									'./media/nulis/font/Indie-Flower.ttf',
+									'-size',
+									'960x1280',
+									'-pointsize',
+									'22',
+									'-interline-spacing',
+									'2',
+									'-annotate',
+									'+140+153',
+									fixHeight,
+									'./media/nulis/images/buku/setelahkiri.jpg'
+									])
+									.on('error', () => reply(lang.tryAgain()))
+									.on('exit', () => {
+										alpha.sendMessage(from, fs.readFileSync('./media/nulis/images/buku/setelahkiri.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: mek, caption: `Jangan Malas`})
+										limitAdd(sender, limit)
+										})
+									}
+									break
+						case 'nuliskanan':{
+									if (args.length < 1) return reply(`Kirim perintah *${prefix}nuliskanan* teks`)
+									reply(`Wait`)
+									const tulisan = q
+									const splitText = tulisan.replace(/(\S+\s*){1,9}/g, '$&\n')
+									const fixHeight = splitText.split('\n').slice(0, 31).join('\n')
+									spawn('convert', [
+									'./media/nulis/images/buku/sebelumkanan.jpg',
+									'-font',
+									'./media/nulis/font/Indie-Flower.ttf',
+									'-size',
+									'960x1280',
+									'-pointsize',
+									'23',
+									'-interline-spacing',
+									'2',
+									'-annotate',
+									'+128+129',
+									fixHeight,
+									'./media/nulis/images/buku/setelahkanan.jpg'
+									])
+									.on('error', () => reply(lang.tryAgain()))
+									.on('exit', () => {
+										alpha.sendMessage(from, fs.readFileSync('./media/nulis/images/buku/setelahkanan.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: mek, caption: `Jangan Malas`})
+										limitAdd(sender, limit)
+										})
+									}
+									break
+						case 'foliokiri':{
+									if (args.length < 1) return reply(`Kirim perintah *${prefix}foliokiri* teks`)
+									reply(`Wait`)
+									const tulisan = q
+									const splitText = tulisan.replace(/(\S+\s*){1,13}/g, '$&\n')
+									const fixHeight = splitText.split('\n').slice(0, 38).join('\n')
+									spawn('convert', [
+									'./media/nulis/images/folio/sebelumkiri.jpg',
+									'-font',
+									'./media/nulis/font/Indie-Flower.ttf',
+									'-size',
+									'1720x1280',
+									'-pointsize',
+									'23',
+									'-interline-spacing',
+									'4',
+									'-annotate',
+									'+48+185',
+									fixHeight,
+									'./media/nulis/images/folio/setelahkiri.jpg'
+									])
+									.on('error', () => reply(lang.tryAgain()))
+									.on('exit', () => {
+										alpha.sendMessage(from, fs.readFileSync('./media/nulis/images/folio/setelahkiri.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: mek, caption: `Jangan Malas`})
+										limitAdd(sender, limit)
+										})
+									}
+									break
+						case 'foliokanan':{
+									if (args.length < 1) return reply(`Kirim perintah *${prefix}foliokanan* teks`)
+									reply(`Wait`)
+									const tulisan = q
+									const splitText = tulisan.replace(/(\S+\s*){1,13}/g, '$&\n')
+									const fixHeight = splitText.split('\n').slice(0, 38).join('\n')
+									spawn('convert', [
+									'./media/nulis/images/folio/sebelumkanan.jpg',
+									'-font',
+									'./media/nulis/font/Indie-Flower.ttf',
+									'-size',
+									'960x1280',
+									'-pointsize',
+									'23',
+									'-interline-spacing',
+									'3',
+									'-annotate',
+									'+89+190',
+									fixHeight,
+									'./media/nulis/images/folio/setelahkanan.jpg'
+									])
+									.on('error', () => reply(mess.error))
+									.on('exit', () => {
+										alpha.sendMessage(from, fs.readFileSync('./media/nulis/images/folio/setelahkanan.jpg'), image, {thumbnail:Buffer.alloc(0),quoted: mek, caption: `Jangan Malas`})
+										limitAdd(sender, limit)
+									})
+									}
+									break*/
  default:
 if (budy.startsWith('=>')) {
 if (!m.key.fromMe && !isCreator) return reply(mess.owner)
