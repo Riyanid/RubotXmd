@@ -725,7 +725,9 @@ Sanksi: *❎ SOFT BLOCK*
 3. Jangan mengeksploitasi bot.😖
 Sanksi: *PERMANENT BLOCK*
 
-4. Follow Ig Owner🗿
+4. jangan culik bot.🗿
+
+5. Follow Ig Owner🗿
 https://instagram.com/yannstory_
 
 ⚠️ Segala kebijakan dan ketentuan >>>>>>RubotX<<<<<< di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
@@ -734,14 +736,18 @@ https://instagram.com/yannstory_
 `
 }
 exports.welcome = () =>{
-	return`Intro Dulu Yu Ayank 🤗
-	
-╭ NAMA :
-├ UMUR :
-├ GENDER :
-├ ASKOT :
-╰❒ 
-*PATUHI RULES GRUB YA KAK*`
+	return`_INTRO DULU YOK_ 😇
+•══════════════♡᭄
+•│     
+•│𖣘 *Nama*   :
+•│𖣘 *Umur*   :
+•│𖣘 *Askot*   :
+•│𖣘 *Kelamin* :
+•│𖣘 *Status*  :
+•│𖣘 *Agama*  : 
+•│ *𖣘Semogga betah ya𖣘*
+•│*PATUHI RULES GRUB*
+•╰══════════════`
 }
 exports.leave = () =>{
 	return`Berkurang satu beban grup🗿, 
