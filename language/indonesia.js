@@ -764,24 +764,17 @@ exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Berapa pun penghasilan kita hari ini, sisihkan untuk bersedekah. Bahkan, paksa diri untuk mampu berbagi setiap hari. Tak harus selalu dengan materi, bisa juga dengan jasa yang kita miliki.
+*BISA LANGSUNG SCAN YA KAK*
 
-Tidak pernah ada orang yang jatuh miskin karena sedekah.
+_Berapa pun penghasilan kita hari ini, sisihkan untuk bersedekah. Bahkan, paksa diri untuk mampu berbagi setiap hari. Tak harus selalu dengan materi, bisa juga dengan jasa yang kita miliki._
 
-Berapapun donasi kalian akan sangat berarti 👍
+_Tidak pernah ada orang yang jatuh miskin karena sedekah._
 
-DANA 
-: 0857-1145-0232
+_Berapapun donasi kalian akan sangat berarti_ 👍
 
-OVO 
-: 0815-1187-9987
+*Thanks!*
 
-SAWERIA 
-: https://saweria.co/RyanID
-
-Thanks!
-
-Contact person Owner:
+_Contact person Owner:_
 wa.me/${ownernomer}
 
     `
