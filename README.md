@@ -116,7 +116,7 @@ Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was sa
 - [Saweria](https://saweria.co/Riyanid)
 - [Dana](https://telegra.ph/file/096d42dedcddef8085691.jpg)
 - [Ovo](https://telegra.ph/file/986bb741b0c1f7517972f.jpg)
-- [Qris]()
+- [Qris](https://telegra.ph/file/cb879819dbed154671d86.jpg)
 
 # Official Group
 - [Group 1](https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV)
