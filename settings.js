@@ -19,7 +19,7 @@ global.available = false //status online (online)
 
 // Other
 global.botname = "RubotX-MDོ" //namabot kalian
-global.ownername= "®!¥ΔΠΔ@D4×፝֟͜×" //nama kalian
+global.ownername= "༄ᶦᶰᵈ᭄♻Mr.|2!¥αM$?✔" //nama kalian
 global.myweb ="https://rest-api-riyanid.herokuapp.com/" //bebas asal jan hapus
 global.insta ="https://instagram.com/yannstory_"
 global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
