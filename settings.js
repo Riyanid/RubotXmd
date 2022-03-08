@@ -18,7 +18,7 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 
 // Other
-global.botname = "RubotX-MDོ" //namabot kalian
+global.botname = "♨RubotX-MDོ✔" //namabot kalian
 global.ownername= "༄ᶦᶰᵈ᭄♻Mr.|2!¥αM$?✔" //nama kalian
 global.myweb ="https://rest-api-riyanid.herokuapp.com/" //bebas asal jan hapus
 global.insta ="https://instagram.com/yannstory_"
