@@ -86,8 +86,15 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Aloo kak ${pushname} 👋 selamat ${salam} , 
-Jangan Lupa Bahagia Ya Kak😇
-Tetap Tersenyum Walo Gigimu Kuning.     
+
+*Jangan Lupa Bahagia Ya Kak😇*
+
+
+    
+        
+                
+_Bagi yang menggunakan wa GB/MOD dan belum support booton, tonton vidio ini_ 
+https://youtu.be/tV-t5ylzF6g   
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -720,12 +727,13 @@ exports.rules = (prefix) => {
 Sanksi: *❎ WARN/SOFT BLOCK*
 
 2. Jangan telepon bot. ☎️
-Sanksi: *❎ SOFT BLOCK*
+Sanksi: *❌ SOFT BLOCK*
 
 3. Jangan mengeksploitasi bot.😖
 Sanksi: *PERMANENT BLOCK*
 
-4. jangan culik bot.🗿
+4. jangan culik bott!
+Sangsi: *❌ SOFT BLOCK*
 
 5. Follow Ig Owner🗿
 https://instagram.com/yannstory_
