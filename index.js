@@ -1753,7 +1753,7 @@ break
             }
             break
 			case 'ramalanjodoh': case 'ramaljodoh': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004, Clara, 22, 2, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003, Surkinem, 17, 8, 1945'
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1761,7 +1761,7 @@ break
             }
             break
             case 'ramalanjodohbali': case 'ramaljodohbali': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004, Clara, 22, 2, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003, Surkinem, 17, 8, 1945'
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_jodoh_bali(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1769,7 +1769,7 @@ break
             }
             break
             case 'suamiistri': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004, Clara, 22, 2, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003, Surkinem, 17, 8, 1945'
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.suami_istri(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1777,7 +1777,7 @@ break
             }
             break
             case 'ramalancinta': case 'ramalcinta': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004, Clara, 22, 2, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003, Surkinem, 17, 8, 1945'
                 let [nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2] = text.split`,`
                 let anu = await primbon.ramalan_cinta(nama1, tgl1, bln1, thn1, nama2, tgl2, bln2, thn2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1785,14 +1785,14 @@ break
             }
             break
             case 'artinama': {
-                if (!text) throw `Example : ${prefix + command} Zeeone`
+                if (!text) throw 'Example : ${prefix + command} Ryanada'
                 let anu = await primbon.arti_nama(text)
                 if (anu.status == false) return m.reply(anu.message)
                 alpha.sendText(m.chat, `⭔ *Nama :* ${anu.message.nama}\n⭔ *Arti :* ${anu.message.arti}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
             }
             break
             case 'kecocokannama': case 'cocoknama': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003'
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.kecocokan_nama(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1800,7 +1800,7 @@ break
             }
             break
             case 'kecocokanpasangan': case 'cocokpasangan': case 'pasangan': {
-                if (!text) throw `Example : ${prefix + command} Zeeone|Clara`
+                if (!text) throw 'Example : ${prefix + command} Ryan|Surkinem'
                 let [nama1, nama2] = text.split`|`
                 let anu = await primbon.kecocokan_nama_pasangan(nama1, nama2)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1808,7 +1808,7 @@ break
             }
             break
             case 'jadianpernikahan': case 'jadiannikah': {
-                if (!text) throw `Example : ${prefix + command} 6, 12, 2020`
+                if (!text) throw 'Example : ${prefix + command} 24, 8, 2022'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.tanggal_jadian_pernikahan(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1816,7 +1816,7 @@ break
             }
             break
             case 'sifatusaha': {
-                if (!ext)throw `Example : ${prefix+ command} 28, 12, 2021`
+                if (!ext)throw 'Example : ${prefix+ command} 28, 12, 2021'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_usaha_bisnis(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1824,7 +1824,7 @@ break
             }
             break
             case 'rejeki': case 'rezeki': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 24, 8, 2003'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rejeki_hoki_weton(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1832,7 +1832,7 @@ break
             }
             break
             case 'pekerjaan': case 'kerja': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 24, 8, 2003'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.pekerjaan_weton_lahir(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1840,7 +1840,7 @@ break
             }
             break
             case 'ramalannasib': case 'ramalnasib': case 'nasib': {
-                if (!text) throw `Example : 12, 1, 2004`
+                if (!text) throw 'Example : 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.ramalan_nasib(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1848,7 +1848,7 @@ break
             }
             break
             case 'potensipenyakit': case 'penyakit': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.cek_potensi_penyakit(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1856,7 +1856,7 @@ break
             }
             break
             case 'artitarot': case 'tarot': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.arti_kartu_tarot(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1864,7 +1864,7 @@ break
             }
             break
             case 'fengshui': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 1, 2004\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 1, 2003\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan'
                 let [nama, gender, tahun] = text.split`,`
                 let anu = await primbon.perhitungan_feng_shui(nama, gender, tahun)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1872,7 +1872,7 @@ break
             }
             break
             case 'haribaik': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.petung_hari_baik(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1880,7 +1880,7 @@ break
             }
             break
             case 'harisangar': case 'taliwangke': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.hari_sangar_taliwangke(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1888,7 +1888,7 @@ break
             }
             break
             case 'harinaas': case 'harisial': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_hari_naas(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1896,7 +1896,7 @@ break
             }
             break
             case 'nagahari': case 'harinaga': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2004'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.rahasia_naga_hari(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1904,7 +1904,7 @@ break
             }
             break
             case 'arahrejeki': case 'arahrezeki': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2003'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_arah_rejeki(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1912,7 +1912,7 @@ break
             }
             break
             case 'peruntungan': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003, 2022\n\nNote : ${prefix + command} Nama, tanggal lahir, bulan lahir, tahun lahir, untuk tahun'
                 let [nama, tgl, bln, thn, untuk] = text.split`,`
                 let anu = await primbon.ramalan_peruntungan(nama, tgl, bln, thn, untuk)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1920,7 +1920,7 @@ break
             }
             break
             case 'weton': case 'wetonjawa': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} 24, 8, 2003'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.weton_jawa(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1928,7 +1928,7 @@ break
             }
             break
             case 'sifat': case 'karakter': {
-                if (!text) throw `Example : ${prefix + command} Zeeone,12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003'
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.sifat_karakter_tanggal_lahir(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1936,7 +1936,7 @@ break
             }
             break
             case 'keberuntungan': {
-                if (!text) throw `Example : ${prefix + command} Zeeone, 12, 1, 2004`
+                if (!text) throw 'Example : ${prefix + command} Ryan, 24, 8, 2003'
                 let [nama, tgl, bln, thn] = text.split`,`
                 let anu = await primbon.potensi_keberuntungan(nama, tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1944,7 +1944,7 @@ break
             }
             break
             case 'memancing': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2022`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2022'
                 let [tgl, bln, thn] = text.split`,`
                 let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
                 if (anu.status == false) return m.reply(anu.message)
@@ -1952,7 +1952,7 @@ break
             }
             break
             case 'masasubur': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} hari pertama menstruasi, siklus`
+                if (!text) throw 'Example : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} hari pertama menstruasi, siklus'
                 let [tgl, bln, thn, siklus] = text.split`,`
                 let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
                 if (anu.status == false) return m.reply(anu.message)
