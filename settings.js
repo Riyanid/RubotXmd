@@ -19,7 +19,7 @@ global.available = false //status online (online)
 
 // Other
 global.botname = "RubotX-MDོ" //namabot kalian
-global.ownername= "®!¥ΔΠΔ@D4×፝֟͜×" //nama kalian
+global.ownername= "༄ᶦᶰᵈ᭄Mr.|2!¥απαDΔ࿐" //nama kalian
 global.myweb ="https://rest-api-riyanid.herokuapp.com/" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UC1XsDCuEyez3gcogOMgOJxw" //bebas asal jan hapus
 global.github = "https://github.com/Riyanid/" //bebas
@@ -29,7 +29,7 @@ global.ownernomer = "6285711450232" // nomor wa kalian
 global.ownernomerr = "+6285711450232" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
-global.background_welcome="https://telegra.ph/file/b918f3dd3d64d5a07d635.jpg" // maks size 30kb, agar welcome image nya tdk delay
+global.background_welcome="https://telegra.ph/file/42ba3c11e05ac23a66b16.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6285711450232","6285711450232","6285711450232"] //ganti agar fitur owner bisa di gunakan
 global.packname = 'RubotX Byོ' //sticker wm ubah
 global.author = 'R1Y4N4D4' //sticker wm ganti nama kalian
