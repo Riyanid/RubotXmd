@@ -1234,7 +1234,7 @@ break
                 tekss += `\n⋙ *${botname}* ⋘`
                 alpha.sendMessage(from, { text: tekss, mentions: participants.map(a => a.id) }, { quoted: fkontak })
             break
-            case 'hidetag':
+            case 'hidetag': case '>':
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
                 alpha.sendMessage(from, { text : q ? q : '' , mentions: participants.map(a => a.id)}, {quoted: fkontak})
