@@ -84,22 +84,46 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 
 // Other
-global.botname = "Alphabot-Mdོ"
-global.ownername= "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×"
-global.myweb ="https://api-alphabot.herokuapp.com/"
-global.youtube = "https://youtube.com/c/ZeeoneOfc"
-global.github = "https://zeeone-ofc.github.io/"
-global.email = "zeeoneofc@gmail.com"
-global.region = "Indonesia"
-global.ownernomer = "62887435047326"
-global.ownernomerr = "+62887435047326"
-global.thumbnail = "./image/lol.jpg"
-global.donasi = "./image/donasi.jpg"
-global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.owner = ["62887435047326","62887435047326","6285342106390"] //ganti agar fitur owner bisa di gunakan
-global.packname = '© Alphabot-Mdོ' //sticker wm
-global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm
+
+global.botname = "RubotX-Mdོ" //namabot kalian
+
+global.ownername= "༄ᶦᶰᵈ᭄Mr.|2!¥απαDΔ࿐" //nama kalian
+
+global.myweb ="https://rest-api-riyanid.herokuapp.com/" //bebas asal jan hapus
+
+global.youtube = "https://youtube.com/channel/UC1XsDCuEyez3gcogOMgOJxw" //bebas asal jan hapus
+
+global.github = "https://github.com/riyanid/" //bebas
+
+global.email = "riyanriyanr84@gmail.com" //bebas
+
+global.region = "Indonesia" //bebas
+
+global.ownernomer = "6285711450232" // nomor wa kalian
+
+global.ownernomerr = "+6285711450232" //nmr wa kalian
+
+global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
+
+global.donasi = "./image/donasi.jpg" // foto donasi di folder image
+
+global.background_welcome = "https://telegra.ph/file/42ba3c11e05ac23a66b16.jpg" // maks size 30kb, agar welcome image nya tdk delay
+
+global.owner = ["6285711450232","6285711450232","6285711450232"] //ganti agar fitur owner bisa di gunakan
+
+global.packname = 'RubotXོ' //sticker wm ubah
+
+global.author = 'By R1Y4N4D4' //sticker wm ganti nama kalian
+
 global.sessionName = 'session'
+
+global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+
+global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+
+global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+
+global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 ```
 
 ## ```HOW TO DEPLOY```
