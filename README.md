@@ -1,10 +1,16 @@
 <p align="center">
-<img src="https://github.com/zeeone-ofc/Alphabot-Md/blob/v7.1/image/lol_1.jpg" alt="ALPHA BOT" width="100"/>
+<img src="https://github.com/Riyanid/RubotXmd/blob/V8/image/lol.jpg" alt="RUBOTX" width="100"/>
+
 
 
 </p>
 <p align="center">
-<a href="#"><img title="ALPHABOT MULTI DEVICE" src="https://img.shields.io/badge/ALPHABOT MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="RUBOTX MULTI DEVICE" src="https://img.shields.io/badge/RUBOTX MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+<p align="center">
+<a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/zeeone-ofc/Alphabot-Md"><img title="Recode" src="https://img.shields.io/badge/Recode-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Riyanid/RubotXmd8"><img title="Colong" src="https://img.shields.io/badge/Colong-RiyanID-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
@@ -107,10 +113,10 @@ global.sessionName = 'session'
 </p>
 
 ## Donate
-- [Saweria](https://saweria.co/zeeoneofc)
-- [Dana](https://j.top4top.io/p_20532posd1.jpg)
-- [Ovo](https://h.top4top.io/p_2053vk0uw1.jpg)
-- [Gopay](https://i.top4top.io/p_2053em3vh1.jpg)
+- [Saweria](https://saweria.co/Riyanid)
+- [Dana](https://telegra.ph/file/096d42dedcddef8085691.jpg)
+- [Ovo](https://telegra.ph/file/986bb741b0c1f7517972f.jpg)
+- [Qris](https://telegra.ph/file/cb879819dbed154671d86.jpg)
 
 # Official Group
 - [Group 1](https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV)
