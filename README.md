@@ -1,9 +1,7 @@
 <p align="center">
-<img src="https://github.com/Riyanid/RubotXmd/blob/V8/image/lol.jpg" alt="RUBOTX" width="100"/>
+  <img src="https://github.com/Riyanid/Riyanid/blob/main/1.gif" />
+</p> 
 
-
-
-</p>
 <p align="center">
 <a href="#"><img title="RUBOTX MULTI DEVICE" src="https://img.shields.io/badge/RUBOTX MULTI DEVICE-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
