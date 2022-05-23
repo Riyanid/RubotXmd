@@ -100,7 +100,7 @@ https://youtu.be/tV-t5ylzF6g
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu RubotX :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
